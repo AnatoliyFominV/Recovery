@@ -33,7 +33,7 @@ def predict_1(dist="Приволжский", pvt="Н", carbonate=0, por=0.2, per
 
 # _______________________Web________________________________________ #
 # _______________________Title_____________________________________ #
-img = Image.open(dir_path + "\\rgu_icon.png")
+img = Image.open(dir_path + "/rgu_icon.png")
 
 st.image(img, width=100)
 st.title("Предскажем коэффициент извлечения нефти по ГФХ")
