@@ -4,4 +4,4 @@ pandas
 streamlit
 tensorflow
 bs4
-PIL
+Pillow
