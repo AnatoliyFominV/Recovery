@@ -14,7 +14,7 @@ import streamlit as st
 import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-path = dir_path + "\model"
+path = dir_path + "/model"
 model = keras.models.load_model(path)
 
 
